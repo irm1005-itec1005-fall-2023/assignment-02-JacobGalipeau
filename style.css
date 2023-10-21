@@ -13,7 +13,7 @@ body {
 /*header styles*/
 header {
   background-color: inherit;
-  color: #023047;
+  color: #000000;
   padding: 1rem;
   text-align: center;
 }
@@ -22,7 +22,7 @@ h2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color: #000000;
 }
 
 header .site-title {
@@ -38,8 +38,8 @@ section.nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: #f3f3f3;
+  border: 1px solid #ffffff;
+  background-color: #00000000;
 }
 
 section.nav li {
@@ -48,19 +48,20 @@ section.nav li {
 
 section.nav li a {
   display: block;
-  color: #666;
+  color: #bdbdbd;
+  background-color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 section.nav a:hover:not(.active) {
-  background-color: #ddd;
+  background-color: #ffffff;
 }
 
 section.nav li a.active{
-  color: white;
-  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
 }
 
 /* BODY SYTLES */
@@ -91,6 +92,7 @@ main section.hero {
   padding: 8rem 1rem 1rem 1rem;
   background-color: #f1faeeff;
   border-radius: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 main section.hero h1 {
@@ -117,6 +119,56 @@ main section.hero img {
   object-fit: cover;
   object-position: center center;
 }
+
+/*Hero flex-box styles*/
+.box-container {
+  box-shadow: #000000 0px 8px 40px;
+}
+.flex-container {
+  height: 400px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nested-flex-container {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  border-radius: 10px;
+font-size: 20px;
+  background-color: #000000;
+  padding: 40px;
+
+}
+.nested-item {
+  padding: 0px 30px 0px 30px;
+  margin-right: 50px;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 10px;
+ }
+
+.flex-container {
+  border: 1px solid #f1faee;
+  border-radius: 10px;
+}
+
+.item {
+  text-align: center;
+  padding: 40px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 10px;
+font-size: 30px;
+  background-color: #f1faeeff;
+  color: black;
+}
+
 
 /* MENU SECTION STYLES */
 main section.locations {
@@ -149,11 +201,13 @@ main section.locations ul li {
   padding: 1rem;
   margin-top: 2rem;
   border-radius: 1rem;
-  background-color: #e6bcbf;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 main section.locations ul li:nth-child(2n) {
-  background-color: rgb(111, 183, 238);
+  background-color: rgb(217, 217, 217);
+  color: #000000;
 }
 /*Frequently asked questions section styles*/
 main section.questions {

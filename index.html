@@ -1,53 +1,49 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-
-<head>
+<html lang="en-ca"><head>
   <!-- Set the page title -->
   <title>Assignment 02</title>
 
   <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
 
   <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
+  
 
   <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
-</head>
+  
+
+<link rel="stylesheet" href="https://humble-disco-69g755jj5xqx2477r-5500.app.github.dev/reset.css?_cacheOverride=1697837556347"><link rel="stylesheet" href="https://humble-disco-69g755jj5xqx2477r-5500.app.github.dev/style.css?_cacheOverride=1697837556348"></head>
 
 <body>
 
 
         <header>
-    <h2>Canada's winter life</h2> 
+          <section class="nav">
+            <nav>
+              <ul>
+                <li><a href="https://example.com">Home</a></li>
+                <li><a href="https://example.com">About Us</a></li>
+                <li><a href="https://example.com">Contact</a></li>
+                <li><a href="https://example.com">© 2023</a></li>
+              </ul>
+            </nav>
+    </section>
+          <h2>Canada's winter life</h2> 
 
-    <p class="site-title">Providing information on Canada's skiing life</p>
-      
-    <h3>Site Guide</h3>
-    <nav>
-      <ul>
-        <li><a href="https://example.com">Home</a></li>
-        <li><a href="https://example.com">About Us</a></li>
-        <li><a href="https://example.com">Contact</a></li>
-        <li><a href="https://example.com">© 2023</a></li>
-      </ul>
-    </nav>
+          <p class="site-title">Providing information on Canada's skiing life</p>
   
     </header>
-    
-<main>
+ 
+  <main>
+  
   <section class="hero">
 
-    <img
-    src="./skihill.jpeg"
-    alt="hill"
-    >
+    <img src="./skihill.jpeg" alt="hill">
 
     <h1>Things to know when skiing in Canada</h1>
     
@@ -97,29 +93,6 @@
       </ul>
 
   </section>
-
-<section class="opinion">
-<h3>We would love to know wich location, either presented above or not, is your favorite down below</h3>
- <form action="/server-page-handling-from-data" method="post"> <h2>Favorite location in your opinion</h2>
-   
-    <ul> 
-      <li> 
-             <fieldset>
-      <legend>Your message</legend>
-     
-     <label
-     for="message">Message</label>
-     <textarea 
-     maxlength="12"
-     rows="10"
-     id="message"></textarea>
-     </fieldset>
-     </li>
-     <li><button type="submit">Submit</button></li>
-    </ul>
-   </form>
-    
-</section>
 
 
 <section class="questions">
@@ -183,11 +156,14 @@
 <li>Red Mountain Resort = 6,807ft</li>
 <li>Mount Norquay = 6,998 ft</li>
     </ul>
+<!--
+
 
     <img
     src="./Sunshinevillagemap.jpeg"
     alt="map"
     >
+-->
 </section>
 
 <section class="stores">
@@ -197,17 +173,17 @@
     </dl>
    <h2>Stores that sell equipement</h2>
     
-    <p>Some stores have more locations than other's like <a href="https://www.sportchek.ca/en.html?ref=1029710&irclickid=WUoQN13zUxyPTkTTK2Qv0XAGUkFW0bzmyxFdVc0&irgwc=1&id=impact_Duomai._245819&utm_campaign=Duomai.&utm_content=245819&utm_medium=affiliate&utm_source=impact&utm_term=1607946">Sportcheck</a> and <a href="https://www.sportsexperts.ca/en-CA/?gclid=CjwKCAjwseSoBhBXEiwA9iZtxh-SYoIJMUb2uqqmkm9NXtiqx6sq2oOzATuJQp-Tf3qrtJVbMac8uRoCB-EQAvD_BwE&gclsrc=aw.ds">Sport Experts</a>, wich is a store that sells sports related material including everything you need for skiing and snowboarding. In addition, some smaller or more local stores can be found near skiing locations, for example, <a href="https://kunstadt.com/">Kunstadt</a> in Ottawa.</p>
+    <p>Some stores have more locations than other's like <a href="https://www.sportchek.ca/en.html?ref=1029710&amp;irclickid=WUoQN13zUxyPTkTTK2Qv0XAGUkFW0bzmyxFdVc0&amp;irgwc=1&amp;id=impact_Duomai._245819&amp;utm_campaign=Duomai.&amp;utm_content=245819&amp;utm_medium=affiliate&amp;utm_source=impact&amp;utm_term=1607946">Sportcheck</a> and <a href="https://www.sportsexperts.ca/en-CA/?gclid=CjwKCAjwseSoBhBXEiwA9iZtxh-SYoIJMUb2uqqmkm9NXtiqx6sq2oOzATuJQp-Tf3qrtJVbMac8uRoCB-EQAvD_BwE&amp;gclsrc=aw.ds">Sport Experts</a>, wich is a store that sells sports related material including everything you need for skiing and snowboarding. In addition, some smaller or more local stores can be found near skiing locations, for example, <a href="https://kunstadt.com/">Kunstadt</a> in Ottawa.</p>
 </section>
 
 <section class="skitrip">
     <h2>Planning on going on a ski trip?</h2>
-    <p>The information presented should offer you great suggestion on where you should go, based on the popularity and outstanding heights of these locations.<br />It is important to know that some of these locations can rent equipement if you do not have any, and not all of these locations are open at night</p>
+    <p>The information presented should offer you great suggestion on where you should go, based on the popularity and outstanding heights of these locations.<br>It is important to know that some of these locations can rent equipement if you do not have any, and not all of these locations are open at night</p>
 <p>If you feel like any important information is missing or you would like to know more please provide your feedback in the forms down below</p>
     </section>
 
-
-   <form action="/server-page-handling-from-data" method="post"> <h1>Personal Information</h1>
+<!--
+<form action="/server-page-handling-from-data" method="post"> <h1>Personal Information</h1>
    
     <ul> 
       <li> 
@@ -250,8 +226,9 @@ placeholder="613-123-4567" />
      <li><button type="submit">Submit</button></li>
     </ul>
    </form>
-    
 </main>
+ -->   
+
 <footer>
 
     <h2>Canada's winter life</h2>
@@ -265,12 +242,13 @@ placeholder="613-123-4567" />
       <li><a href="https://example.com">© 2023</a></li>
     </ul>
     </nav>
-    
+    <!--
  <img
     src="./banffski.webp"
     alt="banff"
     >
-    <p><strong>Contact information:</strong> Canadaswinterlife@gmail.com <br /> <strong>Address:</strong> 2236 ski road, Alberta, Canada</p>
+    -->
+    <p><strong>Contact information:</strong> Canadaswinterlife@gmail.com <br> <strong>Address:</strong> 2236 ski road, Alberta, Canada</p>
    
    <div class="year">
     <p>© 2023</p>
@@ -291,6 +269,9 @@ https://kunstadt.com/
   --> 
     
   <h1>Assignment 02</h1>
+
+</main>
+
 </body>
 
 </html>

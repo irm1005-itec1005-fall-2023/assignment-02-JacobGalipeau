@@ -175,6 +175,7 @@ main section.locations {
   padding: 1rem;
   background-color: #f1faeeff;
   border-radius: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 main section.locations h2 {
@@ -189,6 +190,7 @@ main section.locations p {
   font-size: 1.2rem;
   margin: 0;
   padding: 1rem;
+  font-size: 30px;
 }
 
 main section.locations ul {
@@ -210,6 +212,10 @@ main section.locations ul li:nth-child(2n) {
   color: #000000;
 }
 /*Frequently asked questions section styles*/
+.box-container2 {
+  box-shadow: #000000 0px 8px 40px;
+  padding: 2px;
+}
 main section.questions {
   padding: 1rem;
   background-color: #f1faeeff;
@@ -217,19 +223,19 @@ main section.questions {
 }
 
 main section.questions dt{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.25rem;
   margin: 0 0 1rem 0;
   color: #000000;
 }
 
 main section.questions dd{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 1.25rem;
   margin: 0 0 1rem 0;
   color: #000000;
   padding: 1rem;
-  background-color: rgb(111, 183, 238);
+  background-color: rgb(8, 106, 233);
   border-radius: 1rem;
 }
 

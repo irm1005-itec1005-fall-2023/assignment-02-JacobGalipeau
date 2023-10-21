@@ -212,13 +212,9 @@ main section.locations ul li:nth-child(2n) {
   color: #000000;
 }
 /*Frequently asked questions section styles*/
-.box-container2 {
-  box-shadow: #000000 0px 8px 40px;
-  padding: 2px;
-}
 main section.questions {
   padding: 1rem;
-  background-color: #f1faeeff;
+  background-color: rgba(255, 255, 255, 0.915);
   border-radius: 1rem;
 }
 
@@ -231,12 +227,15 @@ main section.questions dt{
 
 main section.questions dd{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   margin: 0 0 1rem 0;
   color: #000000;
   padding: 1rem;
-  background-color: rgb(8, 106, 233);
+  background-color:  rgba(255, 255, 255, 0.915);
   border-radius: 1rem;
+  font-weight: bold;
+  text-align: center;
+  
 }
 
 /*Statistics section styles*/

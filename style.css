@@ -170,7 +170,7 @@ font-size: 30px;
 }
 
 
-/* MENU SECTION STYLES */
+/* Locations SECTION STYLES */
 main section.locations {
   padding: 1rem;
   background-color: #f1faeeff;
@@ -354,22 +354,104 @@ footer {
   color: #000000;
   padding: 1rem;
 }
-
-footer nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+/*Footer styles for image from W3 Schools*/
+div.gallery {
+  border: 1px solid #ccc;
 }
 
-footer a {
-  color: inherit;
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+/*footer nav*/
+section.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  background-color: #00000000;
+}
+
+section.nav2 li {
+  float: left;
+}
+
+section.nav2 li a {
+  display: block;
+  color: #bdbdbd;
+  background-color: #000000;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-footer a:hover {
-  text-decoration: underline;
+section.nav2 a:hover:not(.active) {
+  background-color: #ffffff;
 }
 
-footer .year {
-  margin: 5rem 0 1rem 0;
+section.nav2 li a.active{
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+/*Fieldbox for nav*/
+.flex-container3 {
+ 
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+.thing2 {
+  text-align: center;
+  max-width: 700px;
+  padding: 40px;
+  margin: 0px;
+  border-radius: 20px;
+}
+
+.thing2:first-child{
+ margin-left: 0px;
+}
+
+.thing2:last-child {
+  margin-right: 0px;
+}
+
+main .box-container4 {
+
+  padding: 50px;
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 30px;
+  box-shadow: #000000 0px 8px 40px;
+  align-content: center;
+}
+footer h2 {
+  color: #000000;
 }

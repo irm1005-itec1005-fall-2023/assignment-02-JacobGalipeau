@@ -343,6 +343,13 @@ main section.storesandtrip a {
 main section.storesandtrip a:hover {
   color: #2e84e1;
 }
+/*Styles for toc*/
+.toc a {
+  color: #ffffff;
+}
+.toc a:hover {
+  color: #2e84e1;
+}
 
 
 

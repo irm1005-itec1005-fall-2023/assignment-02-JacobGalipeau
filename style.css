@@ -239,14 +239,14 @@ main section.questions dd{
 }
 
 /*Statistics section styles*/
-main section.statistics {
+main section.stats {
   padding: 1rem;
   background-color: #f1faeeff;
   border-radius: 1rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main section.statistics table{
+main section.stats table{
   padding: 1rem;
   background-color: rgba(241, 250, 238, 0.801);
   border-radius: 1rem;
@@ -280,13 +280,13 @@ main section.statistics table{
   margin-right: 0px;
 }
 
-main section.statistics caption {
+main section.stats caption {
   color: #fff;
   font-size: 16px;
 
 }
 
-main section.statistics img {
+main section.stats img {
   border-radius: 1rem;
   width: 100%;
   max-width: 100%;

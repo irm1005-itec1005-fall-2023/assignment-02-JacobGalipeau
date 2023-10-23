@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en-ca">
 
 <head>
@@ -6,28 +7,259 @@
   <title>Assignment 02</title>
 
   <!-- Set the charset we're using to UTF-8 -->
-  <meta charset="utf-8" />
+  <meta charset="utf-8">
 
   <!-- Set the screens default zoom / scale to 1 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
-
+  
   <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
+  
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <!--
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    <header>
+          <section class="nav">
+            <nav>
+              <ul>
+                <li><a href="https://example.com">Home</a></li>
+                <li><a href="https://example.com">About Us</a></li>
+                <li><a href="https://example.com">Contact</a></li>
+                <li><a href="https://example.com">© 2023</a></li>
+              </ul>
+            </nav>
+          </section>
+          <h2>Canada's Winter Life</h2> 
 
-  -->
-  <h1>Assignment 02</h1>
+          <p class="site-title">Providing information on Canada's skiing life</p>
+  
+    </header>
+ 
+  <main>
+  
+<section class="hero">
+
+    <img src="./images/skihill.jpeg" alt="hill">
+    
+
+      <h1>Things to know when skiing in Canada</h1>
+      <div class="box-container">
+<div class="flex-container">
+
+  <div class="item">Table of contents</div>
+
+  <div class="nested-flex-container toc">
+    <div class="nested-item"><a href="#locations" style="font-family: sans-serif;">Best and most popular locations by provence</a></div>
+<div class="nested-item"><a href="#statistics" style="font-family: sans-serif;">Statistics on these locations</a></div>
+<div class="nested-item"><a href="#equipement" style="font-family: sans-serif;"> Where to buy the right equipement</a></div>
+    </div>
+
+</div>
+
+</div>
+</section>
+
+<section class="locations">
+
+    <h2><a id="locations"> and most popular locations</a></h2>
+    
+   <p>In <strong>Ontario</strong></p> 
+    <ul>
+<li>Blue mountain ski resort, near Barrie</li>
+<li>Horseshoe resort, near Barrie</li>
+<li>Glen Eden, near Milton</li>
+<li>Calabogie peaks resort, Calabogie </li>
+    </ul>
+
+      <p>In <strong>Quebec</strong></p>
+      <ul>
+<li>Edelweiss, Wakefield</li>
+<li>Camp Fortune, Chelsea</li>
+<li>Mont-Tremblant resort, Mont-Tremblant</li>
+<li>Ski Bromont, near Sherbrook</li>
+      </ul>
+
+<p>In <strong>British Colombia</strong></p>
+    <ul>
+      <li>Big White Ski Resort, near Kelowna</li>
+      <li>Whistler Blackcomb, Whistler</li>
+      <li>Red Mountain Resort, Rossland</li>
+      <li>Revelstoke Mountain Resort, Revelstoke</li>
+    </ul>
+      
+  <p>In <strong>Alberta</strong></p>
+      <ul>
+<li>Sunshine Village, Banff</li>
+<li>Mount Norquay, Banff</li>
+<li>Nakiska Ski Area, Kananaskis</li>
+      </ul>
+
+</section>
+
+<section class="questions">
+    <dl>
+   <dt> <strong>Frequently asked questions:</strong></dt>
+    <dd>What's Canada's tallest ski hills?</dd> 
+    </dl>
+</section>
+
+<section class="stats">
+      <div class="box-container3">
+    <h2><a id="statistics"> Statistics</a></h2>
+    <div class="flex-container2">
+      <div class="thing">
+   <table>
+    <caption>Height of Canada's most known ski hills</caption>
+    <thead>
+      <tr>
+        <th>Location</th>
+        <th>Height</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Sunshine Village</td>
+        <td>7,082 ft</td>
+      </tr>
+      <tr>
+        <td>Nakiska Ski Area</td>
+        <td>7,415ft</td>
+      </tr>
+      <tr>
+        <td>Mont-Tremblant</td>
+        <td>2,870 ft</td>
+      </tr>
+      <tr> 
+        <td>Big White Ski Resort</td>
+        <td>7,608 ft</td>
+      </tr>
+      <tr>
+        <td>Whistler Blackcomb</td>
+        <td>7,494 ft</td>
+      </tr>
+      <tr> 
+        <td>Revelstoke Mountain Resort</td>
+        <td>7,300 ft</td>
+      </tr>
+    </tbody>
+   </table>
+      </div>
+
+<div class="thing">
+<h3>Other ski hills and their heights</h3>
+
+    <ul>
+<li>Blue mountain ski resort = 1,480 ft </li>
+<li>Horseshoe resort = 1,332 ft </li>
+<li>Glen Eden = 1,049 ft </li>
+<li>Calabogie peaks resort = 1,266 ft </li> 
+<li>Edelweiss = 1,148 ft</li>
+<li>Camp Fortune = 1,180 ft</li>
+<li>Ski Bromont = 1,854 ft</li>
+<li>Red Mountain Resort = 6,807ft</li>
+<li>Mount Norquay = 6,998 ft</li>
+    </ul>
+</div>
+    </div>
+      </div>
+
+    <img
+    src="./images/Sunshinevillagemap.jpeg"
+    alt="map"
+    >
+</section>
+
+<section class="question2">
+    <dl>
+    <dt><strong>Another frequently asked question would be:</strong></dt>
+    <dd>Where do I buy Skiing or snowboarding equipement suitable for the condition of these mountains?</dd>
+    </dl>
+</section>
+
+<section class="storesandtrip">
+   <h2><a id="equipement"> Stores that sell equipement</a></h2>
+    
+    <p>Some stores have more locations than other's like <a href="https://www.sportchek.ca/en.html?ref=1029710&amp;irclickid=WUoQN13zUxyPTkTTK2Qv0XAGUkFW0bzmyxFdVc0&amp;irgwc=1&amp;id=impact_Duomai._245819&amp;utm_campaign=Duomai.&amp;utm_content=245819&amp;utm_medium=affiliate&amp;utm_source=impact&amp;utm_term=1607946">Sportcheck</a> and <a href="https://www.sportsexperts.ca/en-CA/?gclid=CjwKCAjwseSoBhBXEiwA9iZtxh-SYoIJMUb2uqqmkm9NXtiqx6sq2oOzATuJQp-Tf3qrtJVbMac8uRoCB-EQAvD_BwE&amp;gclsrc=aw.ds">Sport Experts</a>, wich is a store that sells sports related material including everything you need for skiing and snowboarding. In addition, some smaller or more local stores can be found near skiing locations, for example, <a href="https://kunstadt.com/">Kunstadt</a> in Ottawa.</p>
+
+    <h2>Planning on going on a ski trip?</h2>
+    <p>The information presented should offer you great suggestion on where you should go, based on the popularity and outstanding heights of these locations.<br>It is important to know that some of these locations can rent equipement if you do not have any, and not all of these locations are open at night</p>
+<p>If you feel like any important information is missing or you would like to know more please provide your feedback in the forms down below</p>
+</section>  
+
+<footer>
+    
+  <div class="responsive">
+    <div class="gallery">
+      <a href="https://alltracksacademy.com/blog/beginner-skiing-tips/">
+        <img     src="./images/bankski.png" alt="banff" width="600" height="400">
+      </a>
+      <div class="desc">
+        <h2>More Information</h2>
+        Want to know more about skiing? <br> click on the image!</div>
+    </div>
+  </div>  
+  
+    <div class="box-container4">
+    <h2>Canada's winter life</h2>
+
+
+<section class="nav2">
+  <div class="flex-container3">
+    <div class="thing2">
+      <p><strong>Contact information:</strong> Canadaswinterlife@gmail.com <strong>Address:</strong> 2236 ski road, Alberta, Canada</p>
+     
+      <p><strong>© 2023</strong></p>
+  
+  </div>
+
+    <div class="thing2">
+    <nav>
+    <ul>
+      <li><a href="https://example.com">Home</a></li>
+      <li><a href="https://example.com">About Us</a></li>
+      <li><a href="https://example.com">Contact</a></li>
+    </ul>
+    </nav>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+  </div>
+
+    </footer>
+
+
+  <!-- 
+LIST ANY CITATIONS HERE
+Tutorial-01
+Tutorial-02
+Tutorial-03
+Tutorial-04
+W3 schools (CSS)
+W3C validator
+    ZRankings. (n.d.). The best ski resorts in Canada. ZRankings. https://www.zrankings.com/ski-resorts/canada
+Canada’s clothing, shoes & sporting gear retailer | Shop jackets & apparel, shoes & more. (n.d.). Sportchek. https://www.sportchek.ca/en.html
+
+https://www.sportsexperts.ca/en-CA/?gclid=CjwKCAjwseSoBhBXEiwA9iZtxgkp3rQeNxp7vpH8Ie3qFccpMeyrbfXsI8HfcwQBT2bIgr001F0ddRoCCcAQAvD_BwE&gclsrc=aw.ds
+https://kunstadt.com/
+Beard, P. (2020, October 15). Essential Skiing Tips For Beginners & Novices | ALLTRACKS. ALLTRACKS. https://alltracksacademy.com/blog/beginner-skiing-tips/
+
+
+  --> 
+
+</main>
+
 </body>
 
 </html>

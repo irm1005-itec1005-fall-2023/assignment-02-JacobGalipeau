@@ -5,15 +5,460 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
+  background-color: #ffffff;
   justify-content: center;
   align-items: center;
 }
 
-h1 {
+/*header styles*/
+header {
+  background-color: inherit;
+  color: #000000;
+  padding: 1rem;
+  text-align: center;
+}
+
+h2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color: #000000;
+}
+
+header .site-title {
+  margin: 1rem 0;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.3rem;
+}
+/*Navigation bar*/
+section.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  background-color: #00000000;
+}
+
+section.nav li {
+  float: left;
+}
+
+section.nav li a {
+  display: block;
+  color: #bdbdbd;
+  background-color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+section.nav a:hover:not(.active) {
+  background-color: #ffffff;
+}
+
+section.nav li a.active{
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+/* BODY SYTLES */
+main {
+  margin: 5rem 0rem;
+  padding: 1rem;
+}
+
+/* GENERAL SECTION STYLES */
+main section {
+  margin: 0rem 0 1rem 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+main section:last-child {
+  margin-bottom: 0rem;
+}
+
+/* Adjust the last section's h2 so it can be read */
+main section:last-child h2 {
+  color: #fff;
+}
+
+/* HERO SECTION STYLES */
+main section.hero {
+  padding: 8rem 1rem 1rem 1rem;
+  background-color: #f1faeeff;
+  border-radius: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main section.hero h1 {
+  padding: 0 3rem;
+  font-weight: 700;
+  font-size: 5rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+main section.hero .secondary-heading {
+  padding: 4rem 5rem;
+  font-weight: 400;
+  font-size: 2rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+
+main section.hero img {
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/*Hero flex-box styles*/
+.box-container {
+  box-shadow: #000000 0px 8px 40px;
+}
+.flex-container {
+  height: 400px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nested-flex-container {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  border-radius: 10px;
+font-size: 20px;
+  background-color: #000000;
+  padding: 40px;
+
+}
+.nested-item {
+  padding: 0px 30px 0px 30px;
+  margin-right: 50px;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 10px;
+ }
+
+.flex-container {
+  border: 1px solid #f1faee;
+  border-radius: 10px;
+}
+
+.item {
+  text-align: center;
+  padding: 40px;
+  margin: 0px;
+  text-align: center;
+  border-radius: 10px;
+font-size: 30px;
+  background-color: #f1faeeff;
+  color: black;
+}
+
+
+/* Locations SECTION STYLES */
+main section.locations {
+  padding: 1rem;
+  background-color: #f1faeeff;
+  border-radius: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main section.locations h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1rem;
+}
+
+main section.locations p {
+  text-align:start;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 1rem;
+  font-size: 30px;
+}
+
+main section.locations ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main section.locations ul li {
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+main section.locations ul li:nth-child(2n) {
+  background-color: rgb(217, 217, 217);
+  color: #000000;
+}
+/*Frequently asked questions section styles*/
+main section.questions {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.915);
+  border-radius: 1rem;
+}
+
+main section.questions dt{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.25rem;
+  margin: 0 0 1rem 0;
+  color: #000000;
+}
+
+main section.questions dd{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.45rem;
+  margin: 0 0 1rem 0;
+  color: #000000;
+  padding: 1rem;
+  background-color:  rgba(255, 255, 255, 0.915);
+  border-radius: 1rem;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+/*Statistics section styles*/
+main section.stats {
+  padding: 1rem;
+  background-color: #f1faeeff;
+  border-radius: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main section.stats table{
+  padding: 1rem;
+  background-color: rgba(241, 250, 238, 0.801);
+  border-radius: 1rem;
+}
+
+/*Stats flexbox*/
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #f1faee;
+  border-radius: 10px;
+}
+
+.thing {
+  text-align: center;
+  max-width: 400px;
+  padding: 40px;
+  margin: 0px;
+  
+  border-radius: 10px;
+
+  background-color: #000000;
+}
+
+.thing:first-child{
+  margin-left: 0px;
+}
+
+.thing:last-child {
+  background-color: #669cec;
+  margin-right: 0px;
+}
+
+main section.stats caption {
+  color: #fff;
+  font-size: 16px;
+
+}
+
+main section.stats img {
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 100%;
+  height: 50rem;
+  object-fit: cover;
+  object-position: center center;
+}
+
+/*Styles for question 2*/
+main section.question2 {
+  padding: 1rem;
+  background-color: #f1faee;
+  border-radius: 1rem;
+  color: #000000;
+}
+
+main section.question2 dt{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.25rem;
+  margin: 0 0 1rem 0;
+  color: #000000;
+}
+
+main section.question2 dd{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.45rem;
+  margin: 0 0 1rem 0;
+  color: #000000;
+  padding: 1rem;
+  background-color: #f1faee;
+  border-radius: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Styles for stores and trip info*/
+main section.storesandtrip {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.45rem;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+/*Styles for links*/
+main section.storesandtrip h2 {
+  color: #ffffff;
+}
+
+main section.storesandtrip a {
+  color: #ffffff;
+}
+main section.storesandtrip a:hover {
+  color: #2e84e1;
+}
+/*Styles for toc*/
+.toc a {
+  color: #ffffff;
+}
+.toc a:hover {
+  color: #2e84e1;
+}
+
+
+
+
+/*footer styles*/
+footer {
+  margin: 8rem 0;
+  background-color: inherit;
+  color: #000000;
+  padding: 1rem;
+}
+/*Footer styles for image from W3 Schools*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+/*footer nav*/
+section.nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  background-color: #00000000;
+}
+
+section.nav2 li {
+  float: left;
+}
+
+section.nav2 li a {
+  display: block;
+  color: #bdbdbd;
+  background-color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+section.nav2 a:hover:not(.active) {
+  background-color: #ffffff;
+}
+
+section.nav2 li a.active{
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+/*Fieldbox for nav*/
+.flex-container3 {
+ 
+  justify-content: space-between;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+}
+
+.thing2 {
+  text-align: center;
+  max-width: 700px;
+  padding: 40px;
+  margin: 0px;
+  border-radius: 20px;
+}
+
+.thing2:first-child{
+ margin-left: 0px;
+}
+
+.thing2:last-child {
+  margin-right: 0px;
+}
+
+main .box-container4 {
+
+  padding: 50px;
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 30px;
+  box-shadow: #000000 0px 8px 40px;
+  align-content: center;
+}
+footer h2 {
+  color: #000000;
 }
